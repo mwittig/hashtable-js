@@ -15,6 +15,7 @@
     "map",
     "haspmap",
     "hashtable",
+    "node-hashtable",
     "container"
   ],
   "author": "Marcus Wittig",
