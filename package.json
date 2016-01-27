@@ -1,6 +1,6 @@
 {
   "name": "hashtable-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript replacement for node-hashtable - https://github.com/chad3814/node-hashtable",
   "main": "index.js",
   "scripts": {
