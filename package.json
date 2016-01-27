@@ -1,14 +1,14 @@
 {
-  "name": "hashtable-shim",
+  "name": "hashtable-js",
   "version": "1.0.0",
-  "description": "A pure JS shim for https://github.com/chad3814/node-hashtable",
+  "description": "Javascript replacement for node-hashtable - https://github.com/chad3814/node-hashtable",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mwittig/hashtable-shim.git"
+    "url": "git+https://github.com/mwittig/hashtable-js.git"
   },
   "keywords": [
     "hash",
@@ -20,14 +20,16 @@
   "author": "Marcus Wittig",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mwittig/hashtable-shim/issues"
+    "url": "https://github.com/mwittig/hashtable-js/issues"
   },
-  "homepage": "https://github.com/mwittig/hashtable-shim#readme",
+  "homepage": "https://github.com/mwittig/hashtable-js#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-coveralls": "^0.1.4",
     "gulp-istanbul": "^0.10.3",
     "gulp-jasmine": "^2.2.1",
-    "gulp-plumber": "^1.0.1"
-  }
+    "gulp-plumber": "^1.0.1",
+    "jasmine-expect": "^2.0.0-beta2"
+  },
+  "dependencies": {}
 }
