@@ -29,7 +29,9 @@
     "gulp-coveralls": "^0.1.4",
     "gulp-istanbul": "^0.10.3",
     "gulp-jasmine": "^2.2.1",
+    "gulp-jsdoc-to-markdown": "^1.2.1",
     "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
     "jasmine-expect": "^2.0.0-beta2"
   },
   "dependencies": {}

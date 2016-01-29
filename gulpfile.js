@@ -5,6 +5,8 @@ var plumber = require('gulp-plumber');
 var jasmine = require('gulp-jasmine');
 var istanbul = require('gulp-istanbul');
 var coveralls = require('gulp-coveralls');
+var gulpJsdoc2md = require('gulp-jsdoc-to-markdown')
+var rename = require('gulp-rename')
 
 var paths = {
     srcFiles: ['./index.js'],
@@ -43,7 +45,19 @@ gulp.task('test', ['pre-test'], function() {
 
 gulp.task('coveralls', function() {
     gulp.src('./coverage/**/lcov.info')
+        .pipe(plumber())
         .pipe(coveralls())
+});
+//{ template: fs.readFileSync('./readme.hbs', 'utf8') })
+gulp.task('docs', function () {
+    return gulp.src(paths.srcFiles)
+        .pipe(plumber())
+        .pipe(gulpJsdoc2md())
+        .pipe(rename(function (path) {
+            path.basename = 'API'
+            path.extname = '.md'
+        }))
+        .pipe(gulp.dest('.'))
 });
 
 // default task

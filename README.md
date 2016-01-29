@@ -4,6 +4,8 @@ A pure Javascript replacement for [node-hashtable](https://github.com/chad3814/n
 * Keys must be strings in contrast to node-hashtable supporting keys of any type
 * The es6-map is currently not supported
 
+For details, see also the [API documentation](https://github.com/mwittig/hashtable-js/blob/master/API.md)
+
 ## License 
 
 Copyright (c) 2016, Marcus Wittig
