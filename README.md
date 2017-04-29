@@ -1,5 +1,7 @@
 # hashtable-js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/hashtable-js.svg)](https://greenkeeper.io/)
+
 A pure Javascript replacement for [node-hashtable](https://github.com/chad3814/node-hashtable) with a few limitations:
 * Keys must be strings in contrast to node-hashtable supporting keys of any type
 * The es6-map is currently not supported
